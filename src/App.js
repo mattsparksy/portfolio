@@ -1,5 +1,5 @@
 import Header from "./components/splash"
-import './App.css';
+import './components/splash.css';
 import React, { Component } from 'react'; 
 
 class App extends Component {
