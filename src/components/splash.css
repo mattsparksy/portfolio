@@ -1,17 +1,90 @@
 * {
-    
-    background: black; 
-    font-family: 'Recursive', sans-serif; 
-    position: fixed; /* or absolute */
-    top: 35%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%); 
-    
-} 
+  color: white;
+  background: black;
+  font-family: "Recursive", sans-serif;
+}
 
-.title_main{
-    font-size: 8vw; 
-    cursor: pointer; 
-    color: white;
+.titlemain {
+  font-size: 8vw;
+  margin-top: 20%;
+}
+
+.titlecontainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-mainpage {
+  margin-top: 12%;
+  cursor: pointer;
+  font-size: 4vw;
+}
+
+.aboutsection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutmain {
+  font-size: 6vw;
+  margin-top: 20%;
+}
+
+.aboutmainElec {
+  font-size: 6vw;
+  margin-top: 1%;
+}
+
+.arrow-about {
+  margin-top: 5%;
+  cursor: pointer;
+  font-size: 4vw;
+}
+
+.mainBody {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainSectionContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 200vh;
+}
+
+.TopSectionContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 200vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+
+.Leftlogos {
+  background-color: transparent;
+  font-size: 12vw;
+  float: left;
+  padding-left: 0.5em;
+  padding-top: 5%;
+}
+
+.RightLogos {
+  background-color: transparent;
+  font-size: 15vw;
+  float: right;
+  padding-left: 0.5em;
 }
